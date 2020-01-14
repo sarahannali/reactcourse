@@ -1,19 +1,24 @@
 import React from 'react';
 import './App.css';
 // import Machine from './Machine/Machine'
-import { Choice, Remove } from './FruitExercise/Helpers';
-import Fruits from './FruitExercise/Foods';
+// import { Choice, Remove } from './FruitExercise/Helpers';
+// import Fruits from './FruitExercise/Foods';
+import StateClicker from './StateClicker/StateClicker';
 
 function App() {
-  const givenFruit = Choice(Fruits)
+  // const givenFruit = Choice(Fruits)
 
   return (
     <div>
-      <p>Hello, I'd like one {givenFruit} please!</p>
-      <p>Here you go: {givenFruit}</p>
-      <p>Delicious! May I have another?</p>
-      <p>I'm sorry, we're all out. We have {Remove(Fruits, givenFruit)} left.</p>
+      <StateClicker />
     </div>
+    // FOR FRUIT EXERCISE:
+    // <div>
+    //   <p>Hello, I'd like one {givenFruit} please!</p>
+    //   <p>Here you go: {givenFruit}</p>
+    //   <p>Delicious! May I have another?</p>
+    //   <p>I'm sorry, we're all out. We have {Remove(Fruits, givenFruit)} left.</p>
+    // </div>
 
     // FOR SLOT MACHINE EXERCISE:
     // <div className="App">

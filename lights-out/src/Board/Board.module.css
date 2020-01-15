@@ -1,0 +1,38 @@
+.Board {
+    margin: auto;
+    margin-top: 40px;
+    line-height: 0px;
+    box-shadow: 0px 0 20px #f8f7f2, -10px 0 40px rgb(0, 37, 221), 10px 0 40px rgb(243, 0, 203);
+  }
+
+.lights {
+    text-transform: uppercase;
+    font-family: 'Audiowide', cursive;
+    font-size: 75px;
+    text-shadow: 0px 0px 60px, 0 0 22px, 0 0 1em rgb(255, 0, 217), 0 0 0.5em rgb(255, 0, 217), 0 0 .1em rgb(255, 0, 217), 0 10px 3px #000;
+    color: rgb(235, 187, 227);
+    font-weight: bold;
+    animation: blink 1.5s ease infinite;
+}
+
+.out {
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Audiowide', cursive;
+    font-size: 75px;
+    text-decoration: none;
+    text-shadow: 0px 0px 60px, 0 0 22px, 0 0 1em rgb(0, 194, 253), 0 0 0.5em rgb(0, 194, 253), 0 0 .1em rgb(0, 194, 253), 0 10px 3px #000;
+    color: rgb(196, 222, 240);
+    font-weight: bold;
+    animation: blink 2s ease infinite;
+}
+
+@keyframes blink {
+    31%, 33% {
+        color: #332a2a;
+      }
+      32% {
+        color: #444;
+        text-shadow: none;
+      }
+}

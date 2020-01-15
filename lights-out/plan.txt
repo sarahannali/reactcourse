@@ -1,0 +1,12 @@
+-- lights out game --
+a) layout to the game (App.css)
+b) physical board where game is played (Board.js, Board.module.css)
+c) buttons to press that turn on other buttons (Buttons.js, Buttons.module.css)
+d) logic to win the game (In the Board.js file)
+e) winning text that will be displayed (In the Board.js file, or its own WinningText.js file?)
+
+1. make a board (box from board.js on app.js), fill with mini boxes (made from buttons.js)
+2. make buttons click on and off (done in button.js)
+3. make buttons click on/off other buttons on the board (logic in board.js)
+4. when all buttons off, board disappears and "You win" displays (in board.js file)
+5. styling

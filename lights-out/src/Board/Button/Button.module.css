@@ -1,0 +1,12 @@
+.Button {
+  border: .5px solid #02050E;
+  display: inline-block;
+  margin: 0;
+  background-color: rgb(17, 24, 44);
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.on {
+  background-color: rgb(202, 254, 255);
+}

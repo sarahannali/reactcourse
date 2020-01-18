@@ -1,0 +1,20 @@
+App => Game (
+    -- scoring info
+    -- rolling dice function
+    -- locking dice function
+    -- layout of render
+) => Dice {
+    -- map of # of dice
+    => Die(
+        -- look of the die
+    )
+} & ScoreTable {
+    -- layout of score sheet
+    -- function for if this rule is selected
+    => RuleRow {
+        -- look of rules
+    } & Rules {
+        -- imported individually
+        -- rules and their functions for calculating scores
+    }
+}

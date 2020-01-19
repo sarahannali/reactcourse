@@ -1,0 +1,46 @@
+.Layout{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.Insults{
+    display: inline-block;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60%;
+    height: 65%;
+    background: #fff;
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0))
+}
+
+.spinner{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    color:#28334AFF;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

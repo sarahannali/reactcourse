@@ -1,0 +1,40 @@
+.SideBar{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    width: 20%;
+    height: 70%;
+    color: white;
+    background: #28334AFF;
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0))
+}
+
+.SideBar h1{
+    padding-top: 30%;
+}
+
+.SideBar img{
+    width: 50%;
+    margin-top: 25px;
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0))
+}
+
+.SideBar button{
+    margin-top: 35px;
+    height: 100px;
+    width: 100px;
+    color: white;
+    background: rgb(22, 28, 41);
+    font-size:50px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+
+.SideBar button:hover{
+    transform: rotate(360deg);
+}

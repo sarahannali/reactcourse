@@ -1,0 +1,37 @@
+.Insult{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.123);
+}
+
+.Insult button{
+    background-color: Transparent;
+    border: none;
+    outline:none;
+    font-size: 20px;
+}
+
+.Insult .score{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #000;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    transition: 0.3s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.507); 
+}
+
+.Insult .quote{
+    width: 75%;
+    margin: 20px;
+}
+
+.Insult .source{
+    opacity: 0.3;
+}

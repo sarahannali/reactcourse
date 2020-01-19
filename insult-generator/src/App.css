@@ -1,0 +1,10 @@
+.App{
+  display: flex;
+  position: fixed;
+  font-family: "Krub", sans-serif;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: linear-gradient(135deg, #F65058FF 50%, #F8DE44FF 50%);
+}

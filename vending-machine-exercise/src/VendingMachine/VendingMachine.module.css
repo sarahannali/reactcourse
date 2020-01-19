@@ -1,0 +1,12 @@
+.VendingMachine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+}
+
+.VendingMachine img{
+    height: 200px;
+    width: 200px;
+}

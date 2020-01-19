@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  display: flex;
+  background: rgb(134, 217, 255);
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App a {
+  font-size: 2rem;
+  color: black;
+  transition: all 0.4s ease-out;
+  margin: 15px;
+}
+
+.App a:hover {
+  /* border-bottom: 1px solid rgba(248, 187, 208, 1); */
+  color: rgb(134, 217, 255);
+  cursor: pointer;
+}
+
+.App-nav {
+  margin: 10px;
+  width: 100%;
+}
+
+.active-link{
+  text-decoration: overline #fff;
+}
+
+.App-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 70%;
+  background: #ffffff;
+  box-shadow: 20px 20px 2px #333;
+}
+
+img {
+  width: 30%;
+}
+
+h1 {
+  font-size: 4rem;
+}

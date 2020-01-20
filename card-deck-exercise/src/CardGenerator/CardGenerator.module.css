@@ -1,0 +1,24 @@
+.CardGenerator{
+    display: block;
+    margin: 15px;
+}
+
+.CardGenerator h1 {
+    color: white;
+    font-size: 75px;
+}
+
+.CardGenerator button {
+    color: #000;
+    background-color: #b80f00;
+    text-transform: uppercase;
+    width: 150px; 
+    height: 50px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+.CardGenerator button:hover {
+    background-color: #f84333;
+}

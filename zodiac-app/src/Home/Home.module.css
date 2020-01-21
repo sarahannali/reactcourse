@@ -1,0 +1,20 @@
+.Home{
+    margin-top: 4rem !important;
+    text-align: center;
+}
+
+.Home img{
+    padding-bottom: 20px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.2s ease-in;
+}
+
+.Home img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.Home .attribution{
+    margin-left: 50px;
+}
